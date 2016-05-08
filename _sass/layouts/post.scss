@@ -1,0 +1,41 @@
+/**
+ * Post
+ */
+
+.post {
+  margin: 0 0 80px;
+  &__header {
+    text-align: center;
+  }
+  &__title {
+    @media screen and (max-width: 850px) {
+      font-size: 34px;
+    }
+    @media screen and (max-width: 500px) {
+      font-size: 28px;
+    }
+    a {
+      color: #444;
+      text-decoration: none;
+      &:hover {
+        color: #888;
+      }
+    }
+  }
+  &__content {
+    margin: 25px 0;
+  }
+  &__meta {
+    font-size: 14px;
+    color: #b1b1b1;
+    font-style: italic;
+    a {
+      color: $blue;
+    }
+  }
+  &__button {
+    text-align: center;
+    margin: 25px 0 0;
+    color: $blue;
+  }
+}

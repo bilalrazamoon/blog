@@ -1,0 +1,33 @@
+/**
+ * Pagination
+ */
+
+.pagination {
+  color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+      margin: 0 10px 0 0;
+      vertical-align: middle;
+      a {
+        color: #aaa;
+        transition: color 0.2s ease-in-out;
+        &:hover {
+          color: #555;
+        }
+      }
+      svg {
+        margin-top: 6px;
+      }
+      span {
+        color: #555;
+      }
+    }
+  }
+}

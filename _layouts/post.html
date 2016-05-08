@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<article class="post single" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post__header">
+        <h1 class="alpha post__title" itemprop="name headline">
+            {{ page.title }}
+        </h1>
+    <span class="post__meta">
+    	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+    		Posted on {{ page.date | date: "%b %-d, %Y" }}
+    	</time>
+    </span>
+    </header>
+    <section class="post__content">
+        {{ content }}
+    </section>
+    <div class="share">
+        <div class="addthis_sharing_toolbox"></div>
+    </div>
+</article>
+
+<div class="author">
+    <div class="author__content">
+        <div class="author__pic">
+            <img src="{{ site.baseurl }}/img/bilal.jpg" alt="{{site.name}}">
+        </div>
+        <div class="author__bio">
+            <h3>
+                {{site.name}}
+            </h3>
+            <p>
+                {% include author-bio.html%}
+            </p>
+            <a href="https://twitter.com/hafizbilal112" class="twitter-follow-button" data-show-count="true">Follow
+                @hafizbilal112</a>
+        </div>
+    </div>
+</div>
+
+<div class="disqus">
+    <div id="disqus_thread"></div>
+</div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f6c76081cb85961"></script>
+<script>!function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+    if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = p + '://platform.twitter.com/widgets.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+}(document, 'script', 'twitter-wjs');</script>
+<script>
+    (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//bilalraza.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>

@@ -1,0 +1,28 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Bilal Raza's Blog
+email: hafizbilal112@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Awesome blogs of JavaScript, AngularJS, Ionic, Cordova, NodeJS, ExpressJS, ReactJS  CSS
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
+name: Bilal Raza
+twitter_username: hafizbilal112
+github_username:  hafizbilal112
+paginate: 5
+paginate_path: "/page:num/"
+permalink: /:year/:month/:title
+sass:
+  compressed: true
+
+# Build settings
+markdown: kramdown
+
+# Gems
+gems: [jekyll-paginate]
