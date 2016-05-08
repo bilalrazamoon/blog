@@ -10,8 +10,9 @@ title: Bilal Raza's Blog
 email: hafizbilal112@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Awesome blogs of JavaScript, AngularJS, Ionic, Cordova, NodeJS, ExpressJS, ReactJS  CSS
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+#url: "https://hafizbilal112.github.io" # the base hostname & protocol for your site
+url: "http://localhost:4000" # the base hostname & protocol for your site
 name: Bilal Raza
 twitter_username: hafizbilal112
 github_username:  hafizbilal112
