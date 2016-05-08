@@ -26,4 +26,4 @@ sass:
 markdown: kramdown
 
 # Gems
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jemoji]
