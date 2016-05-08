@@ -119,19 +119,19 @@ Create an **app sub-folder** in root directory and make it the current directory
 
 **Add a component file** named **app.component.ts** and paste the following lines:
 
-```typescript
+```javascript
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
   template: '<h1>My First Angular 2 App</h1>'
-})
+})javascript
 export class AppComponent { }
 ```
 
 Add a new file **main.ts** to the app/ folder:
 
-```typescript
+```javascript
 import { bootstrap }    from '@angular/platform-browser-dynamic';
 
 import { AppComponent } from './app.component';
@@ -254,4 +254,5 @@ Execute this command to compile and run app:
 	npm start
 
 Hurrah! We done with first angular app. :+1:
+
 Our first application doesn't do much. It's basically "Hello, World" for Angular 2.
