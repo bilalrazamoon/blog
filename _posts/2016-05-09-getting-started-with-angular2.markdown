@@ -13,20 +13,19 @@ But in this post, I'm using typescript.
 >Typescript is a typed superset of Javascript that compiles to plain javascript
 
 Here is file structure of simple angular2 app
-```
-angular2-app
-|-- app
-   |-- app.component.ts
-   |-- boot.ts
-|-- node_modules ...
-|-- typings
-   |-- typings.d.ts
-|-- index.htm;
-|-- typings.json
-|-- tsconfig.json
-|-- styles.css
-|-- system.config.js
-```
+
+	angular2-app
+	|-- app
+	   |-- app.component.ts
+	   |-- boot.ts
+	|-- node_modules ...
+	|-- typings
+	   |-- typings.d.ts
+	|-- index.htm;
+	|-- typings.json
+	|-- tsconfig.json
+	|-- styles.css
+	|-- system.config.js
 
 Create a **new project folder**
 	
@@ -120,7 +119,7 @@ Create an **app sub-folder** in root directory and make it the current directory
 
 **Add a component file** named **app.component.ts** and paste the following lines:
 
-```
+```typescript
 import { Component } from '@angular/core';
 
 @Component({
@@ -132,7 +131,7 @@ export class AppComponent { }
 
 Add a new file **main.ts** to the app/ folder:
 
-```
+```typescript
 import { bootstrap }    from '@angular/platform-browser-dynamic';
 
 import { AppComponent } from './app.component';
@@ -146,7 +145,7 @@ Navigate to the project root folder:
 
 Create an **index.html** file in this root folder and paste the following lines:
 
-```
+```html
 <html>
   <head>
     <title>Angular 2 QuickStart</title>
@@ -178,7 +177,7 @@ Create an **index.html** file in this root folder and paste the following lines:
 
 Create **system.config** file for system module loader:
 
-```
+```js
 (function(global) {
 
   // map tells the System loader where to look for things
@@ -229,7 +228,7 @@ Create **system.config** file for system module loader:
 
 Create a **styles.css** in the root folder and start styling, perhaps with this set:
 
-```
+```css
 /* Master Styles */
 h1 {
   color: #369; 
