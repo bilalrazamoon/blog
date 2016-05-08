@@ -253,5 +253,5 @@ Execute this command to compile and run app:
 	
 	npm start
 
-Hurrah! We done with first angular app.
+Hurrah! We done with first angular app. :+1:
 Our first application doesn't do much. It's basically "Hello, World" for Angular 2.
