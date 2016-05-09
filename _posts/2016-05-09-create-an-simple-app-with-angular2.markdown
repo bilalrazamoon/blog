@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Getting started with angular2"
+title: "Creating an simple app with angular2"
 date:   2016-05-09 00:00:00 +0500
 categories: angular2 typescript
 ---
 
 Let's start from zero and build a simple angular2 app.
 
-We can also write angular2 app in javscript, typescript and dart
+We can write angular2 app in javscript as well as typescript and dart
 But in this post, I'm using typescript.
 
 >Typescript is a typed superset of Javascript that compiles to plain javascript
