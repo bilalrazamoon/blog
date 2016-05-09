@@ -55,6 +55,7 @@ Add a **tsconfig.json** file to the project folder and copy/paste the following:
 ```
 
 Add a **typings.json** file to the project folder and copy/paste the following:
+
 ```json
 {
   "ambientDependencies": {
